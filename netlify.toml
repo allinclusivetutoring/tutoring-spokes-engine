@@ -1,5 +1,5 @@
 [build]
-  command = "python engine.py validate && python engine.py generate --production"
+  command = ""
   publish = "dist"
 
 [[headers]]
