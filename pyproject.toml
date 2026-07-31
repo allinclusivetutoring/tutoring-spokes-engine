@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tutoring-spokes-engine"
+version = "1.0.0"
+description = "Verified-source crawler and static site generator for tutoring resource sites"
+requires-python = ">=3.11"
+dependencies = [
+  "beautifulsoup4>=4.12,<5",
+  "Jinja2>=3.1,<4",
+  "requests>=2.32,<3",
+]
+
+[tool.setuptools.packages.find]
+include = ["spoke_engine*"]
+

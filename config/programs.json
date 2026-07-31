@@ -1,0 +1,198 @@
+{
+  "programs": [
+    {
+      "id": "wv_hope",
+      "name": "West Virginia Hope Scholarship",
+      "state": "West Virginia",
+      "official_url": "https://hopescholarshipwv.gov/Home/About/FAQ",
+      "sources": [
+        {
+          "url": "https://hopescholarshipwv.gov/Home/About/FAQ",
+          "title": "West Virginia Hope Scholarship FAQ",
+          "authority": "state_program",
+          "allowed_domains": ["hopescholarshipwv.gov"],
+          "max_pages": 1,
+          "max_depth": 0,
+          "follow_patterns": []
+        }
+      ]
+    },
+    {
+      "id": "utah_ufa",
+      "name": "Utah Fits All Scholarship",
+      "state": "Utah",
+      "official_url": "https://schools.utah.gov/utahfitsallscholarship",
+      "sources": [
+        {
+          "url": "https://schools.utah.gov/utahfitsallscholarship",
+          "title": "Utah State Board of Education — Utah Fits All",
+          "authority": "state_agency",
+          "allowed_domains": ["schools.utah.gov"],
+          "max_pages": 1,
+          "max_depth": 0,
+          "follow_patterns": []
+        },
+        {
+          "url": "https://support.withodyssey.com/hc/en-us/articles/49123284121755-Utah-Fits-All-Program-Year-Timeline",
+          "title": "Odyssey Utah Fits All Program Timeline",
+          "authority": "official_administrator",
+          "allowed_domains": ["support.withodyssey.com"],
+          "max_pages": 1,
+          "max_depth": 0,
+          "follow_patterns": []
+        }
+      ]
+    },
+    {
+      "id": "sc_estf",
+      "name": "South Carolina Education Scholarship Trust Fund",
+      "state": "South Carolina",
+      "official_url": "https://ed.sc.gov/newsroom/strategic-engagement/education-scholarship-trust-fund-program/",
+      "sources": [
+        {
+          "url": "https://ed.sc.gov/newsroom/strategic-engagement/education-scholarship-trust-fund-program/",
+          "title": "South Carolina Department of Education ESTF",
+          "authority": "state_agency",
+          "allowed_domains": ["ed.sc.gov"],
+          "max_pages": 1,
+          "max_depth": 0,
+          "follow_patterns": []
+        }
+      ]
+    },
+    {
+      "id": "nc_esaplus",
+      "name": "North Carolina ESA+ Scholarship",
+      "state": "North Carolina",
+      "official_url": "https://k12.ncseaa.edu/the-education-student-accounts/",
+      "sources": [
+        {
+          "url": "https://k12.ncseaa.edu/the-education-student-accounts/",
+          "title": "NCSEAA ESA+ Scholarship",
+          "authority": "state_agency",
+          "allowed_domains": ["k12.ncseaa.edu", "ncseaa.edu"],
+          "max_pages": 1,
+          "max_depth": 0,
+          "follow_patterns": []
+        }
+      ]
+    },
+    {
+      "id": "nh_efa",
+      "name": "New Hampshire Education Freedom Account",
+      "state": "New Hampshire",
+      "official_url": "https://nh.scholarshipfund.org/apply/nh-education-freedom-accounts/",
+      "sources": [
+        {
+          "url": "https://nh.scholarshipfund.org/apply/nh-education-freedom-accounts/",
+          "title": "Children's Scholarship Fund New Hampshire EFA",
+          "authority": "official_administrator",
+          "allowed_domains": ["nh.scholarshipfund.org"],
+          "max_pages": 1,
+          "max_depth": 0,
+          "follow_patterns": []
+        },
+        {
+          "url": "https://gc.nh.gov/rules/state_agencies/ed800.html",
+          "title": "New Hampshire administrative rules",
+          "authority": "state_agency",
+          "allowed_domains": ["gc.nh.gov"],
+          "max_pages": 1,
+          "max_depth": 0,
+          "follow_patterns": []
+        }
+      ]
+    },
+    {
+      "id": "montana_esa",
+      "name": "Montana Special Needs Education Savings Account",
+      "state": "Montana",
+      "official_url": "https://opi.mt.gov/Families-Students/Parent-Resources/Education-Savings-Account",
+      "sources": [
+        {
+          "url": "https://opi.mt.gov/Families-Students/Parent-Resources/Education-Savings-Account",
+          "title": "Montana Office of Public Instruction ESA",
+          "authority": "state_agency",
+          "allowed_domains": ["opi.mt.gov"],
+          "max_pages": 1,
+          "max_depth": 0,
+          "follow_patterns": []
+        }
+      ]
+    },
+    {
+      "id": "wyoming_esa",
+      "name": "Wyoming Education Savings Account",
+      "state": "Wyoming",
+      "official_url": "https://edu.wyoming.gov/parents/education-savings-accounts/",
+      "sources": [
+        {
+          "url": "https://edu.wyoming.gov/parents/education-savings-accounts/",
+          "title": "Wyoming Department of Education ESA",
+          "authority": "state_agency",
+          "allowed_domains": ["edu.wyoming.gov"],
+          "max_pages": 1,
+          "max_depth": 0,
+          "follow_patterns": []
+        }
+      ]
+    },
+    {
+      "id": "iowa_esa",
+      "name": "Iowa Students First Education Savings Account",
+      "state": "Iowa",
+      "official_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "sources": [
+        {
+          "url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+          "title": "Iowa Department of Education Students First ESA",
+          "authority": "state_agency",
+          "allowed_domains": ["educate.iowa.gov"],
+          "max_pages": 1,
+          "max_depth": 0,
+          "follow_patterns": []
+        }
+      ]
+    },
+    {
+      "id": "florida_stepup",
+      "name": "Florida Step Up For Students Scholarships",
+      "state": "Florida",
+      "official_url": "https://www.stepupforstudents.org/scholarships/private-school/apply/",
+      "sources": [
+        {
+          "url": "https://www.stepupforstudents.org/scholarships/private-school/apply/",
+          "title": "Step Up For Students application guidance",
+          "authority": "official_administrator",
+          "allowed_domains": ["stepupforstudents.org"],
+          "max_pages": 1,
+          "max_depth": 0,
+          "follow_patterns": []
+        }
+      ]
+    },
+    {
+      "id": "louisiana_gator",
+      "name": "Louisiana LA GATOR Scholarship",
+      "state": "Louisiana",
+      "official_url": "https://doe.louisiana.gov/topic-pages/louisiana-school-choice/la-gator",
+      "sources": [
+        {
+          "url": "https://doe.louisiana.gov/topic-pages/louisiana-school-choice/la-gator",
+          "title": "Louisiana Department of Education LA GATOR",
+          "authority": "state_agency",
+          "allowed_domains": ["doe.louisiana.gov"],
+          "max_pages": 1,
+          "max_depth": 0,
+          "follow_patterns": []
+        }
+      ]
+    },
+    {"id": "general_esa", "name": "Education Savings Account Tutoring", "state": "United States", "official_url": "", "sources": []},
+    {"id": "stem", "name": "STEM and Executive-Function Tutoring", "state": "United States", "official_url": "", "sources": []},
+    {"id": "neurodivergent", "name": "Neurodivergent Tutoring", "state": "United States", "official_url": "", "sources": []},
+    {"id": "phd_tutoring", "name": "Advanced Individual Tutoring", "state": "United States", "official_url": "", "sources": []},
+    {"id": "general_tutoring", "name": "Online and Homeschool Tutoring", "state": "United States", "official_url": "", "sources": []}
+  ]
+}
+

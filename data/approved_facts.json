@@ -1,0 +1,186 @@
+{
+  "notice": "Only human-reviewed paraphrases of official sources belong here. The generator automatically omits expired facts.",
+  "facts": [
+    {
+      "id": "wv-2026-current-window",
+      "program_id": "wv_hope",
+      "label": "Current application window",
+      "value": "Applications submitted from June 16 through September 15, 2026 qualify for 75% of the 2026–27 scholarship amount.",
+      "source_url": "https://hopescholarshipwv.gov/Home/About/FAQ",
+      "source_title": "West Virginia Hope Scholarship FAQ",
+      "reviewed_at": "2026-07-31",
+      "expires_at": "2026-09-15",
+      "review_status": "approved",
+      "sort_order": 10
+    },
+    {
+      "id": "wv-2026-award",
+      "program_id": "wv_hope",
+      "label": "Expected 2026–27 amount",
+      "value": "$5,435.62 for students funded at the full annual rate.",
+      "source_url": "https://hopescholarshipwv.gov/Home/About/FAQ",
+      "source_title": "West Virginia Hope Scholarship FAQ",
+      "reviewed_at": "2026-07-31",
+      "expires_at": "2027-06-30",
+      "review_status": "approved",
+      "sort_order": 20
+    },
+    {
+      "id": "utah-2026-window",
+      "program_id": "utah_ufa",
+      "label": "2026–27 application status",
+      "value": "The new-student window closed May 1, 2026, and the returning-student window closed May 31, 2026.",
+      "source_url": "https://support.withodyssey.com/hc/en-us/articles/49123284121755-Utah-Fits-All-Program-Year-Timeline",
+      "source_title": "Odyssey Utah Fits All Program Timeline",
+      "reviewed_at": "2026-07-31",
+      "expires_at": "2026-12-31",
+      "review_status": "approved",
+      "sort_order": 10
+    },
+    {
+      "id": "utah-program-amount",
+      "program_id": "utah_ufa",
+      "label": "Program amount described by USBE",
+      "value": "The Utah State Board of Education describes the program as providing up to $8,000 to Utah K–12 students.",
+      "source_url": "https://schools.utah.gov/utahfitsallscholarship",
+      "source_title": "Utah State Board of Education — Utah Fits All",
+      "reviewed_at": "2026-07-31",
+      "expires_at": "2026-12-31",
+      "review_status": "approved",
+      "sort_order": 20
+    },
+    {
+      "id": "sc-2026-closed",
+      "program_id": "sc_estf",
+      "label": "2026–27 application status",
+      "value": "The application is closed because the program reached its statutory limit of 15,000 students.",
+      "source_url": "https://ed.sc.gov/newsroom/strategic-engagement/education-scholarship-trust-fund-program/",
+      "source_title": "South Carolina Department of Education ESTF",
+      "reviewed_at": "2026-07-31",
+      "expires_at": "2026-10-31",
+      "review_status": "approved",
+      "sort_order": 10
+    },
+    {
+      "id": "nc-2026-closed",
+      "program_id": "nc_esaplus",
+      "label": "2026–27 new-student status",
+      "value": "ESA+ is no longer accepting new-student applications for 2026–27; NCSEAA began extending additional award offers the week of July 27, 2026.",
+      "source_url": "https://k12.ncseaa.edu/the-education-student-accounts/",
+      "source_title": "NCSEAA ESA+ Scholarship",
+      "reviewed_at": "2026-07-31",
+      "expires_at": "2026-09-30",
+      "review_status": "approved",
+      "sort_order": 10
+    },
+    {
+      "id": "nh-2026-open",
+      "program_id": "nh_efa",
+      "label": "2026–27 application status",
+      "value": "The official program administrator states that Education Freedom Account applications are open.",
+      "source_url": "https://nh.scholarshipfund.org/apply/nh-education-freedom-accounts/",
+      "source_title": "Children's Scholarship Fund New Hampshire EFA",
+      "reviewed_at": "2026-07-31",
+      "expires_at": "2026-08-31",
+      "review_status": "approved",
+      "sort_order": 10
+    },
+    {
+      "id": "montana-recurring-windows",
+      "program_id": "montana_esa",
+      "label": "Published application schedule",
+      "value": "Montana OPI says applications are available twice annually: May 1–June 1 and November 1–December 1.",
+      "source_url": "https://opi.mt.gov/Families-Students/Parent-Resources/Education-Savings-Account",
+      "source_title": "Montana Office of Public Instruction ESA",
+      "reviewed_at": "2026-07-31",
+      "expires_at": "2026-12-01",
+      "review_status": "approved",
+      "sort_order": 10
+    },
+    {
+      "id": "wyoming-2026-live",
+      "program_id": "wyoming_esa",
+      "label": "2026–27 application status",
+      "value": "The 2026–27 application went live July 6, 2026; the department says processing was expected by the end of July.",
+      "source_url": "https://edu.wyoming.gov/parents/education-savings-accounts/",
+      "source_title": "Wyoming Department of Education ESA",
+      "reviewed_at": "2026-07-31",
+      "expires_at": "2026-08-31",
+      "review_status": "approved",
+      "sort_order": 10
+    },
+    {
+      "id": "wyoming-annual-amount",
+      "program_id": "wyoming_esa",
+      "label": "Annual amount",
+      "value": "The Wyoming Department of Education lists $7,000 annually for eligible students.",
+      "source_url": "https://edu.wyoming.gov/parents/education-savings-accounts/",
+      "source_title": "Wyoming Department of Education ESA",
+      "reviewed_at": "2026-07-31",
+      "expires_at": "2027-06-30",
+      "review_status": "approved",
+      "sort_order": 20
+    },
+    {
+      "id": "iowa-2026-closed",
+      "program_id": "iowa_esa",
+      "label": "2026–27 application status",
+      "value": "The application window ran from April 16 through June 30, 2026 and is now closed.",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Iowa Department of Education Students First ESA",
+      "reviewed_at": "2026-07-31",
+      "expires_at": "2026-12-31",
+      "review_status": "approved",
+      "sort_order": 10
+    },
+    {
+      "id": "iowa-2026-amount",
+      "program_id": "iowa_esa",
+      "label": "2026–27 amount",
+      "value": "$8,148 per eligible student, divided between fall 2026 and spring 2027.",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Iowa Department of Education Students First ESA",
+      "reviewed_at": "2026-07-31",
+      "expires_at": "2027-06-30",
+      "review_status": "approved",
+      "sort_order": 20
+    },
+    {
+      "id": "florida-2026-new-deadline",
+      "program_id": "florida_stepup",
+      "label": "2026–27 new-student deadline",
+      "value": "The official administrator says new private-school scholarship applications may be submitted through November 15, 2026.",
+      "source_url": "https://www.stepupforstudents.org/scholarships/private-school/apply/",
+      "source_title": "Step Up For Students application guidance",
+      "reviewed_at": "2026-07-31",
+      "expires_at": "2026-11-15",
+      "review_status": "approved",
+      "sort_order": 10
+    },
+    {
+      "id": "florida-2026-renewal",
+      "program_id": "florida_stepup",
+      "label": "Renewal priority date",
+      "value": "The priority date for renewing students was April 30, 2026; later renewal submissions are considered new applications.",
+      "source_url": "https://www.stepupforstudents.org/scholarships/private-school/apply/",
+      "source_title": "Step Up For Students application guidance",
+      "reviewed_at": "2026-07-31",
+      "expires_at": "2026-11-15",
+      "review_status": "approved",
+      "sort_order": 20
+    },
+    {
+      "id": "la-2026-closed",
+      "program_id": "louisiana_gator",
+      "label": "2026–27 application status",
+      "value": "The application window ran from March 1 through March 16, 2026 and is now closed.",
+      "source_url": "https://doe.louisiana.gov/topic-pages/louisiana-school-choice/la-gator",
+      "source_title": "Louisiana Department of Education LA GATOR",
+      "reviewed_at": "2026-07-31",
+      "expires_at": "2026-12-31",
+      "review_status": "approved",
+      "sort_order": 10
+    }
+  ]
+}
+

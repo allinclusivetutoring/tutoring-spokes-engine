@@ -1,47 +1,526 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PhD Level Tutoring | All Inclusive Tutoring</title>
-    <style>
-        body { font-family: system-ui, -apple-system, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 2rem; background: #f9f9f9; }
-        header { text-align: center; margin-bottom: 2rem; }
-        h1 { color: #2c3e50; font-size: 2.5rem; }
-        .hero { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 2rem; }
-        .cta-button { display: inline-block; background: #3498db; color: white; padding: 1rem 2rem; text-decoration: none; border-radius: 4px; font-weight: bold; font-size: 1.2rem; margin-top: 1rem; }
-        .cta-button:hover { background: #2980b9; }
-        .latest-news { background: #fff; padding: 1.5rem; border-left: 4px solid #e74c3c; margin-top: 2rem; font-size: 0.95rem; }
-        footer { text-align: center; margin-top: 3rem; font-size: 0.9rem; color: #7f8c8d; }
-    </style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Amato Yarbrough Institute — Personalized Learning &amp; Human Potential</title>
+<meta content="A human-centered learning institute helping people understand how they think, learn, and flourish — through personalized education, strengths discovery, and systems built around the individual." name="description"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&amp;family=Inter:wght@400;500;600&amp;family=IBM+Plex+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<style>
+  :root{
+    --ink:#1a1c17;
+    --paper:#eef0e9;
+    --paper-2:#e4e7dd;
+    --blueprint:#28466b;
+    --blueprint-deep:#152a42;
+    --brass:#b9832f;
+    --line:rgba(26,28,23,0.16);
+    --line-strong:rgba(26,28,23,0.32);
+    --max:1180px;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    font-size:16px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.001ms !important; transition-duration:0.001ms !important;}
+  }
+  h1,h2,h3,.display{
+    font-family:'Fraunces',serif;
+    font-weight:500;
+    letter-spacing:-0.01em;
+    margin:0;
+    color:var(--blueprint-deep);
+  }
+  .mono{
+    font-family:'IBM Plex Mono',monospace;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+  }
+  a{color:inherit;}
+  img,svg{display:block; max-width:100%;}
+  .wrap{
+    max-width:var(--max);
+    margin:0 auto;
+    padding:0 32px;
+  }
+  @media (max-width:640px){ .wrap{padding:0 20px;} }
+
+  /* subtle graph-paper texture on the whole page */
+  body{
+    background-image:
+      linear-gradient(rgba(40,70,107,0.035) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(40,70,107,0.035) 1px, transparent 1px);
+    background-size:36px 36px;
+  }
+
+  /* ---------- NAV ---------- */
+  header.site{
+    position:sticky; top:0; z-index:50;
+    background:rgba(238,240,233,0.88);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{
+    display:flex; align-items:center; justify-content:space-between;
+    padding:18px 0;
+  }
+  .nav .mark{
+    display:flex; align-items:baseline; gap:10px;
+  }
+  .nav .mark .glyph{width:26px; height:26px; flex:none;}
+  .nav .mark span{
+    font-family:'Fraunces',serif; font-weight:500; font-size:17px; color:var(--blueprint-deep);
+    line-height:1.2;
+  }
+  .nav ul{
+    list-style:none; display:flex; gap:30px; margin:0; padding:0;
+  }
+  .nav ul a{
+    text-decoration:none; font-size:13.5px; font-weight:500; color:var(--ink);
+    font-family:'IBM Plex Mono',monospace; letter-spacing:0.03em; text-transform:uppercase;
+    border-bottom:1px solid transparent;
+    padding-bottom:3px;
+    transition:border-color .15s ease, color .15s ease;
+  }
+  .nav ul a:hover{ border-color:var(--brass); color:var(--blueprint-deep); }
+  .nav-cta{
+    font-family:'IBM Plex Mono',monospace; font-size:13px; text-transform:uppercase; letter-spacing:.03em;
+    background:var(--blueprint-deep); color:var(--paper);
+    padding:10px 18px; text-decoration:none; white-space:nowrap;
+  }
+  .nav-toggle{ display:none; }
+  @media (max-width: 880px){
+    .nav ul{ display:none; }
+    .nav-cta{ display:none; }
+  }
+
+  /* ---------- HERO ---------- */
+  .hero{
+    padding:90px 0 70px;
+    border-bottom:1px solid var(--line);
+    position:relative;
+    overflow:hidden;
+  }
+  .hero-grid{
+    display:grid;
+    grid-template-columns:1.1fr 0.9fr;
+    gap:56px;
+    align-items:center;
+  }
+  @media (max-width:900px){ .hero-grid{ grid-template-columns:1fr; } }
+
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace; font-size:12.5px; letter-spacing:.08em;
+    text-transform:uppercase; color:var(--blueprint);
+    display:flex; align-items:center; gap:10px; margin-bottom:22px;
+  }
+  .eyebrow::before{
+    content:""; width:26px; height:1px; background:var(--brass);
+  }
+  .hero h1{
+    font-size:clamp(34px, 5vw, 54px);
+    line-height:1.08;
+    max-width:15ch;
+  }
+  .hero .lede{
+    margin-top:26px;
+    font-size:18px;
+    color:#3c4038;
+    max-width:46ch;
+  }
+  .hero .cta-row{
+    margin-top:36px; display:flex; gap:16px; flex-wrap:wrap; align-items:center;
+  }
+  .btn{
+    font-family:'IBM Plex Mono',monospace; font-size:13px; letter-spacing:.03em; text-transform:uppercase;
+    text-decoration:none; padding:14px 24px; display:inline-block; border:1px solid var(--blueprint-deep);
+  }
+  .btn.primary{ background:var(--blueprint-deep); color:var(--paper); }
+  .btn.ghost{ color:var(--blueprint-deep); }
+  .btn.primary:hover{ background:var(--blueprint); }
+
+  .hero-diagram{
+    border:1px solid var(--line-strong);
+    background:rgba(255,255,255,0.35);
+    padding:20px;
+    position:relative;
+  }
+  .hero-diagram .cap{
+    font-family:'IBM Plex Mono',monospace; font-size:11px; color:var(--blueprint);
+    display:flex; justify-content:space-between; margin-bottom:10px; letter-spacing:.05em;
+  }
+
+  /* ---------- SECTION SCAFFOLDING ---------- */
+  section{ padding:86px 0; border-bottom:1px solid var(--line); }
+  section:last-of-type{ border-bottom:none; }
+  .section-head{
+    display:grid; grid-template-columns:220px 1fr; gap:40px; margin-bottom:48px;
+  }
+  @media (max-width:760px){ .section-head{ grid-template-columns:1fr; gap:14px; } }
+  .section-head .tag{
+    font-family:'IBM Plex Mono',monospace; font-size:12.5px; text-transform:uppercase; letter-spacing:.06em;
+    color:var(--blueprint); padding-top:6px;
+  }
+  .section-head h2{ font-size:clamp(26px,3.4vw,36px); max-width:20ch; }
+
+  .prose{ max-width:64ch; font-size:16.5px; color:#333630; }
+  .prose p + p{ margin-top:16px; }
+
+  /* ---------- PHILOSOPHY QUOTES ---------- */
+  .belief{
+    background:var(--blueprint-deep);
+    color:var(--paper);
+    border-bottom:1px solid var(--line);
+  }
+  .belief .wrap{ padding-top:0; padding-bottom:0; }
+  .belief-inner{
+    padding:70px 0;
+    text-align:center;
+  }
+  .belief .mono-label{
+    font-family:'IBM Plex Mono',monospace; font-size:12px; letter-spacing:.08em; text-transform:uppercase;
+    color:#9fb3c8; margin-bottom:22px; display:block;
+  }
+  .belief blockquote{
+    font-family:'Fraunces',serif; font-style:italic; font-weight:400;
+    font-size:clamp(22px,3.4vw,34px); line-height:1.35; max-width:20ch; margin:0 auto;
+  }
+
+  .triptych{
+    display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
+    background:var(--line-strong); border:1px solid var(--line-strong);
+  }
+  @media (max-width:760px){ .triptych{ grid-template-columns:1fr; } }
+  .triptych > div{ background:var(--paper); padding:32px; }
+  .triptych h3{
+    font-family:'IBM Plex Mono',monospace; text-transform:uppercase; font-size:12.5px;
+    letter-spacing:.05em; color:var(--brass); margin-bottom:14px; font-weight:500;
+  }
+  .triptych p{ font-size:15.5px; color:#3c4038; margin:0; }
+
+  /* ---------- APPROACH DIAGRAM ---------- */
+  .approach-list{
+    display:flex; flex-direction:column;
+  }
+  .approach-item{
+    display:grid; grid-template-columns:64px 1fr; gap:26px;
+    padding:26px 0; border-top:1px solid var(--line);
+    position:relative;
+  }
+  .approach-item:last-child{ border-bottom:1px solid var(--line); }
+  .approach-num{
+    font-family:'IBM Plex Mono',monospace; font-size:13px; color:var(--blueprint);
+    padding-top:4px;
+  }
+  .approach-num .line{
+    display:block; width:1px; height:100%; background:var(--line-strong); margin:8px auto 0;
+  }
+  .approach-item h3{ font-size:20px; margin-bottom:8px; }
+  .approach-item p{ margin:0; color:#3c4038; max-width:60ch; }
+
+  /* ---------- PROGRAMS ---------- */
+  .programs-grid{
+    display:grid; grid-template-columns:repeat(3,1fr); gap:24px;
+  }
+  @media (max-width:900px){ .programs-grid{ grid-template-columns:1fr; } }
+  .program-card{
+    border:1px solid var(--line-strong); padding:28px; background:rgba(255,255,255,0.4);
+    display:flex; flex-direction:column; height:100%;
+  }
+  .program-card .status{
+    font-family:'IBM Plex Mono',monospace; font-size:11px; text-transform:uppercase; letter-spacing:.05em;
+    margin-bottom:16px; color:var(--brass);
+  }
+  .program-card.future .status{ color:#7d8175; }
+  .program-card h3{ font-size:19px; margin-bottom:10px; }
+  .program-card p{ font-size:14.5px; color:#3c4038; margin:0; flex:1; }
+  .program-card .tags{ margin-top:18px; display:flex; flex-wrap:wrap; gap:6px; }
+  .program-card .tags span{
+    font-family:'IBM Plex Mono',monospace; font-size:10.5px; text-transform:uppercase;
+    border:1px solid var(--line-strong); padding:4px 8px; color:#3c4038;
+  }
+
+  /* ---------- PROMISE ---------- */
+  .promise-list{
+    columns:2; column-gap:40px;
+  }
+  @media (max-width:700px){ .promise-list{ columns:1; } }
+  .promise-list div{
+    break-inside:avoid; padding:16px 0 16px 24px; border-left:1px solid var(--line-strong);
+    margin-bottom:6px; font-family:'Fraunces',serif; font-size:18px; font-style:italic; color:var(--blueprint-deep);
+  }
+
+  /* ---------- CREDENTIALS STRIP ---------- */
+  .credentials{
+    background:var(--paper-2);
+  }
+  .credentials .wrap{ padding-top:46px; padding-bottom:46px; }
+  .credentials .row{
+    display:flex; flex-wrap:wrap; gap:36px; align-items:center; justify-content:space-between;
+  }
+  .credentials .label{
+    font-family:'IBM Plex Mono',monospace; font-size:12px; text-transform:uppercase; letter-spacing:.06em;
+    color:var(--blueprint); flex:none;
+  }
+  .credentials ul{
+    list-style:none; margin:0; padding:0; display:flex; flex-wrap:wrap; gap:10px 28px; font-size:14.5px; color:#3c4038;
+  }
+  .credentials li::before{ content:"— "; color:var(--brass); }
+
+  /* ---------- CONTACT ---------- */
+  .contact{ text-align:center; }
+  .contact h2{ max-width:none; }
+  .contact .lede{ max-width:52ch; margin:18px auto 0; color:#3c4038; font-size:17px; }
+  .contact .cta-row{ justify-content:center; margin-top:34px; }
+
+  footer{
+    padding:40px 0; border-top:1px solid var(--line);
+  }
+  footer .wrap{
+    display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:14px;
+  }
+  footer .mono{ font-size:11.5px; color:#5a5e52; }
+
+  /* fade-in on scroll */
+  .reveal{ opacity:0; transform:translateY(14px); transition:opacity .6s ease, transform .6s ease; }
+  .reveal.in{ opacity:1; transform:none; }
+</style>
 </head>
 <body>
-    <header>
-        <h1>Expert PhD Level Tutoring</h1>
-        <p>Serving students with top-tier education and support.</p>
-    </header>
+<header class="site">
+<div class="wrap nav">
+<div class="mark">
+<svg class="glyph" fill="none" viewbox="0 0 26 26">
+<circle cx="13" cy="13" r="12" stroke="#28466b" stroke-width="1"></circle>
+<circle cx="13" cy="7.5" fill="#28466b" r="2"></circle>
+<circle cx="7" cy="17" fill="#b9832f" r="2"></circle>
+<circle cx="19" cy="17" fill="#b9832f" r="2"></circle>
+<path d="M13 9.5V13M13 13L7.7 15.7M13 13L18.3 15.7" stroke="#28466b" stroke-width="1"></path>
+</svg>
+<span>The Amato Yarbrough<br/>Institute</span>
+</div>
+<ul>
+<li><a href="#philosophy">Philosophy</a></li>
+<li><a href="#approach">Approach</a></li>
+<li><a href="#programs">Programs</a></li>
+<li><a href="#promise">Promise</a></li>
+</ul>
+<a class="nav-cta" href="#contact">Book a Consult</a>
+</div>
+</header>
+<section class="hero">
+<div class="wrap hero-grid">
+<div>
+<div class="eyebrow">Personalized Learning &amp; Human Potential</div>
+<h1>We do not force people to fit predetermined systems.</h1>
+<p class="lede">We help them understand themselves — and build systems in which they can flourish. The Amato Yarbrough Institute is a human-centered learning and development practice combining personalized education, strengths discovery, and systems thinking.</p>
+<div class="cta-row">
+<a class="btn primary" href="#contact">Book a Consult</a>
+<a class="btn ghost" href="#approach">See Our Approach</a>
+</div>
+</div>
+<div class="hero-diagram">
+<div class="cap"><span>FIG. 01</span><span>THE APPROACH, IN BRIEF</span></div>
+<svg viewbox="0 0 460 360" width="100%">
+<!-- schematic flow: person node -> pattern -> system -> capability -> tools -->
+<g fill="none" stroke="#28466b" stroke-width="1">
+<line x1="60" x2="60" y1="60" y2="300"></line>
+<line stroke-dasharray="2 4" x1="60" x2="400" y1="60" y2="60"></line>
+<line stroke-dasharray="2 4" x1="60" x2="400" y1="130" y2="130"></line>
+<line stroke-dasharray="2 4" x1="60" x2="400" y1="200" y2="200"></line>
+<line stroke-dasharray="2 4" x1="60" x2="400" y1="270" y2="270"></line>
+</g>
+<g fill="#28466b" font-family="IBM Plex Mono" font-size="10" letter-spacing="0.5">
+<text x="70" y="50">01 · KNOW THE PERSON</text>
+<text x="70" y="120">02 · DISCOVER THE PATTERN</text>
+<text x="70" y="190">03 · DESIGN THE SYSTEM</text>
+<text x="70" y="260">04 · DEVELOP CAPABILITIES</text>
+</g>
+<circle cx="380" cy="60" fill="#b9832f" r="5"></circle>
+<circle cx="380" cy="130" fill="#b9832f" r="5"></circle>
+<circle cx="380" cy="200" fill="#b9832f" r="5"></circle>
+<circle cx="380" cy="270" fill="#28466b" r="5"></circle>
+<path d="M380 65 L380 125 M380 135 L380 195 M380 205 L380 265" stroke="#b9832f" stroke-width="1"></path>
+<text fill="#152a42" font-family="Fraunces" font-size="13" font-style="italic" x="345" y="315">05 — transfer the tools</text>
+</svg>
+</div>
+</div>
+</section>
+<section class="belief">
+<div class="wrap">
+<div class="belief-inner">
+<span class="mono-label">Core Belief</span>
+<blockquote>“We do not force people to fit predetermined systems. We help them understand themselves and build systems in which they can flourish.”</blockquote>
+</div>
+</div>
+</section>
+<section id="philosophy">
+<div class="wrap">
+<div class="section-head reveal">
+<div class="tag">01 — Philosophy</div>
+<h2>Foundational Purpose</h2>
+</div>
+<div class="prose reveal">
+<p>The Amato Yarbrough Institute exists to help people understand how they think, learn, connect, and create meaning — and to give them the insight and tools to build lives that reflect who they genuinely are.</p>
+<p>We believe people flourish when they are deeply known, intellectually engaged, and accepted as whole human beings. When learners feel safe enough to reveal how they actually think, their curiosity, creativity, motivation, and innate desire to grow can emerge.</p>
+<p>Our work begins with the individual rather than a predetermined system. We seek to understand each person's abilities, interests, cognitive patterns, experiences, needs, aspirations, and way of perceiving the world — then use that understanding to create personalized educational experiences and practical systems that support meaningful, sustainable growth.</p>
+</div>
+</div>
+<div class="wrap" style="margin-top:56px;">
+<div class="triptych reveal">
+<div>
+<h3>Mission</h3>
+<p>To create human-centered learning systems in which individuals are genuinely known, meaningfully challenged, and equipped to develop their abilities with confidence and authenticity — through personalized education, strengths discovery, guidance, systems thinking, and mentorship.</p>
+</div>
+<div>
+<h3>Vision</h3>
+<p>A world in which no person's potential is limited by age, geography, socioeconomic status, disability, neurotype, or a standardized definition of intelligence — where acceptance doesn't mean lowering expectations, but creating the conditions where meaningful challenge becomes possible.</p>
+</div>
+<div>
+<h3>Our Aim</h3>
+<p>Not to construct a person's world for them — but to help them understand themselves, recognize their possibilities, acquire the necessary tools, and build a world of their own.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="approach">
+<div class="wrap">
+<div class="section-head reveal">
+<div class="tag">02 — Method</div>
+<h2>The Amato Yarbrough Approach</h2>
+</div>
+<div class="approach-list reveal">
+<div class="approach-item">
+<div class="approach-num">01<span class="line"></span></div>
+<div><h3>Know the Person</h3><p>We begin by listening, observing, asking thoughtful questions, and understanding the individual beyond grades, diagnoses, standardized scores, or institutional labels.</p></div>
+</div>
+<div class="approach-item">
+<div class="approach-num">02<span class="line"></span></div>
+<div><h3>Discover the Pattern</h3><p>We identify strengths, abilities, interests, learning preferences, obstacles, connections, and patterns that may have been overlooked or misunderstood.</p></div>
+</div>
+<div class="approach-item">
+<div class="approach-num">03<span class="line"></span></div>
+<div><h3>Design the System</h3><p>We create a personalized framework for learning and development that reflects the person's goals, circumstances, abilities, and authentic way of thinking.</p></div>
+</div>
+<div class="approach-item">
+<div class="approach-num">04<span class="line"></span></div>
+<div><h3>Develop the Capabilities</h3><p>Through rigorous instruction, inquiry, productive struggle, mentorship, and meaningful practice, we help learners strengthen their reasoning, confidence, resilience, creativity, and independence.</p></div>
+</div>
+<div class="approach-item">
+<div class="approach-num">05</div>
+<div><h3>Transfer the Tools</h3><p>Our measure of success is not dependence on the Institute — it's the learner's growing ability to understand themselves, advocate for what they need, adapt their systems, and continue building their own future.</p></div>
+</div>
+</div>
+</div>
+</section>
+<section id="programs">
+<div class="wrap">
+<div class="section-head reveal">
+<div class="tag">03 — Programs</div>
+<h2>Where the Institute begins</h2>
+</div>
+<div class="prose reveal" style="margin-bottom:40px;">
+<p>We start with the program we can deliver exceptionally well today, while building toward the broader mission. Personalized learning is our first offering — not the limit of what the Institute is.</p>
+</div>
+<div class="programs-grid reveal">
+<div class="program-card">
+<div class="status">Now Enrolling</div>
+<h3>Personalized Learning</h3>
+<p>One-to-one instruction for K–college students and lifelong learners across math, science, language arts, and test preparation — designed around how each student actually thinks, not a fixed curriculum.</p>
+<div class="tags"><span>Gifted &amp; 2e</span><span>Neurodiverse</span><span>AZ ESA Approved</span></div>
+</div>
+<div class="program-card">
+<div class="status">Now Enrolling</div>
+<h3>Educational &amp; Career Guidance</h3>
+<p>Strengths and cognitive-profile exploration paired with practical guidance for academic pathways, college planning, and career direction — for students and working adults alike.</p>
+<div class="tags"><span>Strengths Discovery</span><span>College Planning</span></div>
+</div>
+<div class="program-card future">
+<div class="status">Building Toward</div>
+<h3>Institute Programs</h3>
+<p>Curriculum &amp; learning-experience design, educator training, parent consultations, research and publications, and access initiatives for learners underserved by standardized systems.</p>
+<div class="tags"><span>Research</span><span>Educator Training</span><span>Access &amp; Scholarships</span></div>
+</div>
+</div>
+</div>
+</section>
+<section id="promise">
+<div class="wrap">
+<div class="section-head reveal">
+<div class="tag">04 — Promise</div>
+<h2>Our Promise</h2>
+</div>
+<div class="promise-list reveal">
+<div>You will not be reduced to a label, score, transcript, diagnosis, or list of deficiencies.</div>
+<div>You will be encountered as a complete person.</div>
+<div>You will be listened to with curiosity.</div>
+<div>You will be challenged with care.</div>
+<div>You will be given room to think differently.</div>
+<div>You will be helped to recognize the patterns and possibilities within yourself.</div>
+<div>You will leave with tools for constructing a life and world that are authentically your own.</div>
+</div>
+</div>
+</section>
+<section class="credentials">
+<div class="wrap">
+<div class="row reveal">
+<div class="label">Verified &amp; Credentialed</div>
+<ul>
+<li>Arizona Fingerprint Clearance Card</li>
+<li>AZ Dept. of Child Safety (DCS) Background Check</li>
+<li>Adult Protective Services (APS) Background Check</li>
+<li>M.S. Healthcare Systems Engineering, Johns Hopkins University</li>
+<li>B.S. Systems Engineering, Arizona State University</li>
+<li>Ph.D. Industrial &amp; Systems Engineering, in progress — Mississippi State University</li>
+</ul>
+</div>
+</div>
+</section>
+<section class="contact" id="contact">
+<div class="wrap">
+<h2 class="reveal">Know yourself. Build your system. Create your world.</h2>
+<p class="lede reveal">Tell us about your student, your goals, or what you're hoping to understand about how you think and learn. We'll follow up to schedule a consult.</p>
+<div class="cta-row reveal">
+<a class="btn primary" href="mailto:hello@theamatoyarbroughinstitute.com">hello@theamatoyarbroughinstitute.com</a>
+</div>
+</div>
+</section>
+<footer>
+<div class="wrap">
+<span class="mono">© 2026 The Amato Yarbrough Institute</span>
+<span class="mono">theamatoyarbroughinstitute.com</span>
+</div>
+</footer>
+<script>
+  const items = document.querySelectorAll('.reveal');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  items.forEach(el => io.observe(el));
+</script>
 
-    <main>
-        <section class="hero">
-            <h2>Why Choose Us for PhD Level Tutoring?</h2>
-            <p>At All Inclusive Tutoring, we specialize in providing tailored, high-quality instruction. If you are looking for support regarding <strong>PhD Level Tutoring</strong>, you are in the right place.</p>
-            <p>Our expert tutors understand the specific requirements and educational standards needed to help your student thrive.</p>
-            
-            <div style="text-align: center;">
-                <a href="https://allinclusivetutoring.com" class="cta-button">Book Your Free Consultation Now</a>
-            </div>
-        </section>
-
-        <section class="latest-news">
-            <h3>Latest Updates on PhD Level Tutoring</h3>
-            <p><em>Sourced from official and educational resources:</em></p>
-            <p>The first week of school can set the tone for the entire year. Teacher Marcus Luther shares powerful yet simple routines that build trust, help students feel known, and strengthen the classroom community.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2026 All Inclusive Tutoring Solutions LLC. All rights reserved.</p>
-        <p>Visit our main hub: <a href="https://allinclusivetutoring.com">allinclusivetutoring.com</a></p>
-    </footer>
+<section style="background: #f8fafc; padding: 3rem 1.5rem; text-align: center; border-top: 1px solid #e2e8f0; margin-top: 3rem;">
+<div style="max-width: 800px; margin: 0 auto;">
+<h2 style="font-size: 2rem; color: #1e293b; margin-bottom: 1rem;">The Amato Yarbrough Institute for Individual Learning</h2>
+<p style="color: #475569; font-size: 1.1rem; line-height: 1.6; margin-bottom: 2rem; font-style: italic;">
+                "Specialized remote tutoring solutions for families pursuing educational freedom and individualized learning paths."
+            </p>
+<a href="https://allinclusivetutoring.com" style="display: inline-block; background-color: #2563eb; color: white; font-weight: bold; padding: 1rem 2.5rem; border-radius: 8px; text-decoration: none; font-size: 1.1rem; box-shadow: 0 4px 6px rgba(37,99,235,0.2); transition: background-color 0.3s;">
+                Book Your Consultation at All Inclusive Tutoring
+            </a>
+</div>
+</section>
 </body>
 </html>

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.headline }} | All Inclusive Tutoring</title>
+  <meta name="description" content="{{ site.angle|capitalize }} for {{ site.audience }}. Independent tutoring resource with links to official program information.">
+  <meta name="robots" content="{{ 'index,follow,max-snippet:-1' if production else 'noindex,nofollow' }}">
+  <link rel="canonical" href="{{ canonical_url }}">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="https://allinclusivetutoring.com/">All Inclusive Tutoring</a>
+      <a class="header-cta" href="{{ booking_url }}">Discuss tutoring goals</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">{{ category.eyebrow }}</p>
+          <h1>{{ site.headline }}</h1>
+          <p class="lede">This page focuses on {{ site.angle }} for {{ site.audience }}.</p>
+          <p>All Inclusive Tutoring offers individualized online instruction. Program eligibility, provider approval, reimbursement, and allowable expenses are determined only by the responsible agency or administrator.</p>
+          <a class="button" href="{{ booking_url }}">Book a tutoring consultation</a>
+        </div>
+        <aside class="notice" aria-label="Important independence notice">
+          <strong>Independent resource</strong>
+          <p>This website is not a government website and is not affiliated with or endorsed by {{ program.name }}. A domain name containing “approved,” “ESA,” or a program name does not establish official approval.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap two-column">
+        <div>
+          <p class="eyebrow">Tutoring approach</p>
+          <h2>Support built around the learner</h2>
+          <ul class="check-list">
+          {% for service in category.services %}
+            <li>{{ service }}</li>
+          {% endfor %}
+          </ul>
+        </div>
+        <div class="process-card">
+          <h2>Before booking</h2>
+          <ol>
+            <li>Confirm current eligibility and allowable expenses with the official program.</li>
+            <li>Ask whether the tutor must be registered or pre-approved before services begin.</li>
+            <li>Keep the program's required invoices, attendance records, and service descriptions.</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    {% if facts %}
+    <section class="section facts-section" aria-labelledby="program-facts">
+      <div class="wrap">
+        <p class="eyebrow">Human-reviewed official-source summary</p>
+        <h2 id="program-facts">Current {{ program.name }} facts</h2>
+        <p class="freshness">Last human review represented below: {{ last_reviewed }}. Check the linked source before relying on a date or amount.</p>
+        <div class="fact-grid">
+        {% for fact in facts %}
+          <article class="fact-card">
+            <h3>{{ fact.label }}</h3>
+            <p>{{ fact.value }}</p>
+            <p class="source-line"><a href="{{ fact.source_url }}" rel="noopener noreferrer">Official source: {{ fact.source_title }}</a></p>
+            <p class="fact-meta">Reviewed {{ fact.reviewed_at }}{% if fact.expires_at %} · Auto-expires {{ fact.expires_at }}{% endif %}</p>
+          </article>
+        {% endfor %}
+        </div>
+      </div>
+    </section>
+    {% elif program.official_url %}
+    <section class="section facts-section">
+      <div class="wrap empty-facts">
+        <p class="eyebrow">Official program information</p>
+        <h2>No current dynamic fact has passed review</h2>
+        <p>To avoid showing a stale deadline or funding amount, this page omits unreviewed crawler results.</p>
+        <a href="{{ program.official_url }}" rel="noopener noreferrer">Check the current {{ program.name }} information</a>
+      </div>
+    </section>
+    {% endif %}
+
+    <section class="section cta-section">
+      <div class="wrap cta-card">
+        <div>
+          <p class="eyebrow">Next step</p>
+          <h2>Talk through the student's learning goals</h2>
+          <p>A consultation can clarify subject needs, scheduling, and the tutoring plan. Scholarship eligibility is handled separately by the official program.</p>
+        </div>
+        <a class="button button-light" href="{{ booking_url }}">Visit All Inclusive Tutoring</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-grid">
+      <p>© 2026 All Inclusive Tutoring Solutions LLC.</p>
+      <p><a href="https://allinclusivetutoring.com/">Main tutoring website</a></p>
+    </div>
+    <div class="wrap legal">Information is educational and may change. It is not legal, tax, financial, clinical, or government-program advice. Generated {{ generated_at }}.</div>
+  </footer>
+</body>
+</html>
