@@ -99,7 +99,7 @@ jobs:
               echo "### Failure reasons"
               echo "$fail_reasons"
             fi
-          } >> "$GITHUB_STEP_SUMMARY"
+          } | tee -a "$GITHUB_STEP_SUMMARY"
 
       - name: Open or update the weekly review pull request
         env:
