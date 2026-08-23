@@ -129,4 +129,13 @@ def build_sites():
     print(f"\nAll spoke sites have been integrated into the '{output_dir}' directory!")
 
 if __name__ == '__main__':
+    import sys
+    if len(sys.argv) > 1:
+        print(
+            f"error: engine.py does not accept arguments (got: {' '.join(sys.argv[1:])})\n"
+            f"Use 'python -m spoke_engine <command>' instead.\n"
+            f"Commands: validate, crawl, generate",
+            file=sys.stderr,
+        )
+        sys.exit(2)
     build_sites()

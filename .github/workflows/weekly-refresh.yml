@@ -34,16 +34,23 @@ jobs:
         run: python -m pip install -r requirements.txt
 
       - name: Validate configuration
-        run: python engine.py validate
+        run: python -m spoke_engine validate
 
       - name: Crawl approved official sources
         env:
           CRAWLER_CONTACT: ${{ vars.CRAWLER_CONTACT }}
           CRAWLER_USER_AGENT: ${{ vars.CRAWLER_USER_AGENT }}
-        run: python engine.py crawl
+        run: python -m spoke_engine crawl
+
+      - name: Verify crawl produced output
+        run: |
+          if [ ! -f data/crawl_snapshot.json ]; then
+            echo "::error::Crawl produced no snapshot — crawler did not run"
+            exit 1
+          fi
 
       - name: Build a no-index preview
-        run: python engine.py generate --preview
+        run: python -m spoke_engine generate --preview
 
       - name: Run tests
         run: python -m unittest discover -s tests -v
@@ -57,6 +64,43 @@ jobs:
             reports/change_report.md
           retention-days: 14
 
+      - name: Summarize crawl results
+        run: |
+          snapshot="data/crawl_snapshot.json"
+          candidates="data/candidates.json"
+          sources_checked=0
+          sources_ok=0
+          sources_failed=0
+          fail_reasons=""
+          if [ -f "$snapshot" ]; then
+            sources_checked=$(python -c "import json; d=json.load(open('$snapshot')); print(len(d.get('pages',{})))")
+            sources_ok=$sources_checked
+          fi
+          if [ -f "$candidates" ]; then
+            sources_failed=$(python -c "import json; d=json.load(open('$candidates')); print(len(d.get('errors',[])))")
+            if [ "$sources_failed" -gt 0 ]; then
+              sources_ok=$((sources_checked - sources_failed))
+              fail_reasons=$(python -c "
+          import json
+          errs = json.load(open('$candidates')).get('errors', [])
+          for e in errs:
+              print(f\"- \`{e['program_id']}\` {e['url']}: {e['error']}\")
+          ")
+            fi
+          fi
+          {
+            echo "## Weekly Crawl Summary"
+            echo ""
+            echo "- **Sources checked:** $sources_checked"
+            echo "- **Sources OK:** $sources_ok"
+            echo "- **Sources failed:** $sources_failed"
+            if [ -n "$fail_reasons" ]; then
+              echo ""
+              echo "### Failure reasons"
+              echo "$fail_reasons"
+            fi
+          } | tee -a "$GITHUB_STEP_SUMMARY"
+
       - name: Open or update the weekly review pull request
         env:
           GH_TOKEN: ${{ github.token }}
@@ -66,9 +110,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -B "$branch"
-          git add data/candidates.json data/crawl_snapshot.json reports/change_report.md
+          mkdir -p data reports
+          git add -A -- data reports
           if git diff --cached --quiet; then
-            echo "No official-source changes to review."
+            echo "No changes to commit" >> "$GITHUB_STEP_SUMMARY"
             exit 0
           fi
           git commit -m "Review weekly official-source changes"
