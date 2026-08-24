@@ -188,6 +188,23 @@
         }
       ]
     },
+    {
+      "id": "arizona_esa",
+      "name": "Arizona Empowerment Scholarship Account",
+      "state": "Arizona",
+      "official_url": "https://azsbe.az.gov/parents/empowerment-scholarship-account-esa-program",
+      "sources": [
+        {
+          "url": "https://azsbe.az.gov/parents/empowerment-scholarship-account-esa-program",
+          "title": "Arizona State Board of Education ESA Program",
+          "authority": "state_agency",
+          "allowed_domains": ["azsbe.az.gov"],
+          "max_pages": 1,
+          "max_depth": 0,
+          "follow_patterns": []
+        }
+      ]
+    },
     {"id": "general_esa", "name": "Education Savings Account Tutoring", "state": "United States", "official_url": "", "sources": []},
     {"id": "stem", "name": "STEM and Executive-Function Tutoring", "state": "United States", "official_url": "", "sources": []},
     {"id": "neurodivergent", "name": "Neurodivergent Tutoring", "state": "United States", "official_url": "", "sources": []},
