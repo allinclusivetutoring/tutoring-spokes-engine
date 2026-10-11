@@ -1,7 +1,961 @@
 {
-  "generated_at": null,
+  "generated_at": "2026-10-11T03:49:11+00:00",
   "review_required": true,
-  "candidates": [],
-  "errors": []
+  "candidates": [
+    {
+      "candidate_id": "975ddc3b50befdeb",
+      "program_id": "florida_stepup",
+      "source_url": "https://www.stepupforstudents.org/scholarships/private-school/apply/",
+      "source_title": "PS Apply - Step Up For Students",
+      "authority": "official_administrator",
+      "excerpt": "Bullying: Beginning with the 2024-2025 school year, students who have experienced a bullying incident as described in Florida statute may apply for a Private School Scholarship until 4/15 by using the Hope Notification Form.",
+      "dates_found": [
+        "2024-2025"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "dbb938d9fda03d1a",
+      "program_id": "florida_stepup",
+      "source_url": "https://www.stepupforstudents.org/scholarships/private-school/apply/",
+      "source_title": "PS Apply - Step Up For Students",
+      "authority": "official_administrator",
+      "excerpt": "Renewing students seeking priority need to have submitted their application by April 30, 2026. Applications submitted after this date will be considered new and can be submitted through November 15, 2026.",
+      "dates_found": [
+        "April 30, 2026",
+        "November 15, 2026"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "0e03608b6a4a776a",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "July 15, 2026 – Full-Year Fall ESA Funds Available Fall ESA funds are available.",
+      "dates_found": [
+        "July 15, 2026"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "14cc0018e779e296",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "January 14, 2027 – Half-Year Enrollment & Payment Deadline Full-Year ESA Participants : Parents must pay spring tuition and fees through the ESA portal by 11:59 p.m. Failure to do so does not impact program eligibility. Half-Year ESA Participants : To receive and retain half-year ESA funds, each participant must (1) be",
+      "dates_found": [
+        "January 14, 2027",
+        "2026-27"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "1d9833e5a2665cfb",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "April 16, 2026 – ESA Full-Year Applications Open Parents/Guardians can begin applying for an ESA at 8:00 a.m.",
+      "dates_found": [
+        "April 16, 2026"
+      ],
+      "amounts_found": [],
+      "status_language_found": true,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "220fdd079c9f78c8",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "Applications: Annual ESA applications are required for all prospective ESA participants. Families who were not approved for a full-year application (June 30 deadline) may submit a half-year application (November 15 deadline). Beginning fall 2026, applications are required to also upload a government-issued ID into the",
+      "dates_found": [
+        "June 30",
+        "November 15"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "2787820f4adb07ee",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "December 1, 2026 – Spring ESA Funds Available Spring ESA funds are available, which includes the second amount for full-year applicants and the total amount for half-year applicants).",
+      "dates_found": [
+        "December 1, 2026"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "39fabe4f4ef34544",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "Users with an existing ESA portal account may use that account to apply for a half-year ESA if there was not a full-year application submitted in 2026-27.",
+      "dates_found": [
+        "2026-27"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "44351917200b8d7a",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "Half-Year ESA Participants : To receive and retain half-year ESA funds, each participant must (1) be attending an accredited nonpublic school in Iowa and (2) pay tuition and fees through the ESA portal by 11:59 p.m. Failure to complete these requirements will make a half-year participant ineligible to receive and retai",
+      "dates_found": [
+        "2026-27"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "499574ba25f9c495",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "2026-27 ESA Calendar: Key Program Dates for Schools",
+      "dates_found": [
+        "2026-27"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "49bf17feb33ffb3a",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "A student who has an approved application for the 2026-27 school year.",
+      "dates_found": [
+        "2026-27"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "4b088ec7476f6cb8",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "The half-year application window for the 2026-27 school year is 8:00 a.m. on October 15, 2026 through 11:59 p.m. on November 15, 2026.",
+      "dates_found": [
+        "2026-27",
+        "October 15, 2026",
+        "November 15, 2026"
+      ],
+      "amounts_found": [],
+      "status_language_found": true,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "560899bb838aae6a",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "January 15, 2027 – Half-Year Eligibility Finalized Any student with an approved half-year ESA application who is not attending an Iowa accredited nonpublic school or who did not pay tuition and fees through the ESA portal by January 14, 2027 at 11:59 p.m. are determined ineligible.",
+      "dates_found": [
+        "January 15, 2027",
+        "January 14, 2027"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "591e6af27060285d",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "September 30, 2026 – Full-Year Enrollment & Payment Deadline To receive and retain full-year ESA funds, each participant must (1) be attending an accredited nonpublic school in Iowa, and (2) pay tuition and fees through the ESA portal by 11:59 p.m. Failure to complete this step will make the student ineligible to recei",
+      "dates_found": [
+        "September 30, 2026",
+        "2026-27"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "5b93344feb58a1a9",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "Parents who choose to enroll their eligible children in one of Iowa’s accredited nonpublic schools will receive an amount equal to the per pupil funding allocated to public school districts for the same budget school year. For 2026-27, a full-year ESA is $8,148; a half-year ESA is $4,074. Funds are held in an education",
+      "dates_found": [
+        "2026-27"
+      ],
+      "amounts_found": [
+        "$8,148",
+        "$4,074"
+      ],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "656e2b6ac5c94e27",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "Eligibility: Eligible students are those who Have an approved application, Attend an Iowa accredited nonpublic school, and Pay fall tuition and fees by the program deadline of September 30 (full-year) or January 14 (half-year).",
+      "dates_found": [
+        "September 30",
+        "January 14"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "7e35258fd448bbd6",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "Beginning with the 2025-26 school year, and for each subsequent year, all Iowa resident K-12 students are eligible regardless of income.",
+      "dates_found": [
+        "2025-26"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "7e9a6374ec0e103a",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "October 1, 2026 – Full-Year Eligibility Finalized Any student with an approved full-year ESA application who is not attending an Iowa accredited nonpublic school or who did not pay fall tuition and fees through the ESA portal by September 30, 2026 are determined to be ineligible.",
+      "dates_found": [
+        "October 1, 2026",
+        "September 30, 2026"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "8884428a786c13e3",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "Failure to complete these requirements will make a half-year participant ineligible to receive and retain the half-year ESA for the 2026-27 school year.",
+      "dates_found": [
+        "2026-27"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "9586ebfb8be75ea6",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "June 30, 2026 – ESA Full-Year Applications Close The deadline to submit an ESA application for the 2026-27 school year is 11:59 p.m.",
+      "dates_found": [
+        "June 30, 2026",
+        "2026-27"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "a824da7d5f2e00da",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "Eligible students are those who Have an approved application, Attend an Iowa accredited nonpublic school, and Pay fall tuition and fees by the program deadline of September 30 (full-year) or January 14 (half-year).",
+      "dates_found": [
+        "September 30",
+        "January 14"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "aabe5240a8fd106e",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "The full-year application window for the 2026-27 school year is 8:00 a.m. on April 16, 2026 through 11:59 p.m. on June 30, 2026.",
+      "dates_found": [
+        "2026-27",
+        "April 16, 2026",
+        "June 30, 2026"
+      ],
+      "amounts_found": [],
+      "status_language_found": true,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "bf75f0b671acead1",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "A student who has confirmed tuition and fee payments in the ESA portal by the program-defined deadline. Full-year participant deadline: September 30, 2026 (11:59 p.m.) Half-year participant deadline: January 14, 2027 (11:59 p.m.)",
+      "dates_found": [
+        "September 30, 2026",
+        "January 14, 2027"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "bffed1459b76c1e0",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "Full-year participant deadline: September 30, 2026 (11:59 p.m.)",
+      "dates_found": [
+        "September 30, 2026"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "c116c9fad84b90a4",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "If a full-year 2026-27 application was submitted, a new ESA portal account must be created to apply for a half-year application.",
+      "dates_found": [
+        "2026-27"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "c8596a7a59260688",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "Half-year participant deadline: January 14, 2027 (11:59 p.m.)",
+      "dates_found": [
+        "January 14, 2027"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "d2b5d76edd5e4cbb",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "October 15, 2026 – Half-Year Applications Open Parents/Guardians can begin applying for a half-year ESA at 8:00 a.m.",
+      "dates_found": [
+        "October 15, 2026"
+      ],
+      "amounts_found": [],
+      "status_language_found": true,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "d5e5e285c693d500",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "The Students First Act , introduced by Governor Reynolds and signed into law on January 24, 2023, makes state funding available to support the success of every K-12 student in Iowa. The bill established a framework and funding for education savings accounts (ESAs), which may be used by eligible families to cover tuitio",
+      "dates_found": [
+        "January 24, 2023",
+        "May 12, 2026"
+      ],
+      "amounts_found": [],
+      "status_language_found": true,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "d744784264ef8054",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "Returning applicants : Parents/guardians with an existing ESA portal account will log in to the existing account to begin the application for the 2026-27 school year.",
+      "dates_found": [
+        "2026-27"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "e289a49adc7df685",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "2026-27 ESA Calendar: Key Program Dates",
+      "dates_found": [
+        "2026-27"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "e783b92cf2e9bf33",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "Families who were not approved for a full-year application (June 30 deadline) may submit a half-year application (November 15 deadline).",
+      "dates_found": [
+        "June 30",
+        "November 15"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "f06c7e8f8016d164",
+      "program_id": "iowa_esa",
+      "source_url": "https://educate.iowa.gov/pk-12/educational-choice/education-savings-accounts",
+      "source_title": "Students First Education Savings Accounts | Department of Education",
+      "authority": "state_agency",
+      "excerpt": "November 15, 2026 – Half-Year Applications Close The deadline to submit a half-year ESA application is 11:59 p.m.",
+      "dates_found": [
+        "November 15, 2026"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "0584a184868e14e2",
+      "program_id": "louisiana_gator",
+      "source_url": "https://doe.louisiana.gov/topic-pages/louisiana-school-choice/la-gator",
+      "source_title": "LA GATOR Scholarship Program",
+      "authority": "state_agency",
+      "excerpt": "April–June: The Louisiana Legislature will decide how much funding the program receives for 2026–27.",
+      "dates_found": [
+        "2026–27"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "0d0d19e16d7f5f1d",
+      "program_id": "louisiana_gator",
+      "source_url": "https://doe.louisiana.gov/topic-pages/louisiana-school-choice/la-gator",
+      "source_title": "LA GATOR Scholarship Program",
+      "authority": "state_agency",
+      "excerpt": "Former Louisiana Scholarship Program (LSP) students who remain at their current school will continue receiving the same amount they were awarded in 2024–2025 as part of the LSP, until they complete that school’s final grade or leave the school.",
+      "dates_found": [
+        "2024–2025"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "5b4aed04a4978544",
+      "program_id": "louisiana_gator",
+      "source_url": "https://doe.louisiana.gov/topic-pages/louisiana-school-choice/la-gator",
+      "source_title": "LA GATOR Scholarship Program",
+      "authority": "state_agency",
+      "excerpt": "The LA GATOR Scholarship Program application window for the 2026–2027 school year opens Sunday, March 1 at 9 a.m. CT and closes March 16 at 11:59 p.m. CT.",
+      "dates_found": [
+        "2026–2027",
+        "March 1",
+        "March 16"
+      ],
+      "amounts_found": [],
+      "status_language_found": true,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "8b2db9edcb0f20e3",
+      "program_id": "louisiana_gator",
+      "source_url": "https://doe.louisiana.gov/topic-pages/louisiana-school-choice/la-gator",
+      "source_title": "LA GATOR Scholarship Program",
+      "authority": "state_agency",
+      "excerpt": "Participated in the LA GATOR Scholarship Program during the 2025–2026 school year",
+      "dates_found": [
+        "2025–2026"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "9ebb38db4533372d",
+      "program_id": "louisiana_gator",
+      "source_url": "https://doe.louisiana.gov/topic-pages/louisiana-school-choice/la-gator",
+      "source_title": "LA GATOR Scholarship Program",
+      "authority": "state_agency",
+      "excerpt": "Failure to renew by March 16 will result in loss of eligibility.",
+      "dates_found": [
+        "March 16"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "a25014ebb375adb9",
+      "program_id": "louisiana_gator",
+      "source_url": "https://doe.louisiana.gov/topic-pages/louisiana-school-choice/la-gator",
+      "source_title": "LA GATOR Scholarship Program",
+      "authority": "state_agency",
+      "excerpt": "Families of Louisiana students not currently participating in the program may submit a new application during the application window. This includes families applying for the first time and families previously placed on the waitlist.",
+      "dates_found": [],
+      "amounts_found": [],
+      "status_language_found": true,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "ad98ed1f3e759365",
+      "program_id": "louisiana_gator",
+      "source_url": "https://doe.louisiana.gov/topic-pages/louisiana-school-choice/la-gator",
+      "source_title": "LA GATOR Scholarship Program",
+      "authority": "state_agency",
+      "excerpt": "$5,243 for other eligible students",
+      "dates_found": [],
+      "amounts_found": [
+        "$5,243"
+      ],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "ae6c4929d47de1dc",
+      "program_id": "louisiana_gator",
+      "source_url": "https://doe.louisiana.gov/topic-pages/louisiana-school-choice/la-gator",
+      "source_title": "LA GATOR Scholarship Program",
+      "authority": "state_agency",
+      "excerpt": "Families of students currently participating in the LA GATOR Scholarship Program must log in to the Odyssey portal and renew their application during the application window to maintain eligibility for 2026–2027.",
+      "dates_found": [
+        "2026–2027"
+      ],
+      "amounts_found": [],
+      "status_language_found": true,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "b2aed9190c7701f9",
+      "program_id": "louisiana_gator",
+      "source_url": "https://doe.louisiana.gov/topic-pages/louisiana-school-choice/la-gator",
+      "source_title": "LA GATOR Scholarship Program",
+      "authority": "state_agency",
+      "excerpt": "Meet one of the following: Participated in the LA GATOR Scholarship Program during the 2025–2026 school year Is entering kindergarten Was enrolled in a public school on both October 1 and February 1 of the 2025–2026 school year Comes from a household with income at or below 250% of the federal poverty level",
+      "dates_found": [
+        "2025–2026",
+        "October 1",
+        "February 1"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "d40724470030a8ec",
+      "program_id": "louisiana_gator",
+      "source_url": "https://doe.louisiana.gov/topic-pages/louisiana-school-choice/la-gator",
+      "source_title": "LA GATOR Scholarship Program",
+      "authority": "state_agency",
+      "excerpt": "Here’s what students may receive for the 2025–2026 school year:",
+      "dates_found": [
+        "2025–2026"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "da6e942672097009",
+      "program_id": "louisiana_gator",
+      "source_url": "https://doe.louisiana.gov/topic-pages/louisiana-school-choice/la-gator",
+      "source_title": "LA GATOR Scholarship Program",
+      "authority": "state_agency",
+      "excerpt": "Was enrolled in a public school on both October 1 and February 1 of the 2025–2026 school year",
+      "dates_found": [
+        "October 1",
+        "February 1",
+        "2025–2026"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "dcd7a155e2c5fffd",
+      "program_id": "louisiana_gator",
+      "source_url": "https://doe.louisiana.gov/topic-pages/louisiana-school-choice/la-gator",
+      "source_title": "LA GATOR Scholarship Program",
+      "authority": "state_agency",
+      "excerpt": "The LA GATOR Scholarship Program application window for the 2026–2027 school year opens Sunday, March 1 at 9 a.m. CT and closes March 16 at 11:59 p.m. CT. Here’s what happens after the application window closes:",
+      "dates_found": [
+        "2026–2027",
+        "March 1",
+        "March 16"
+      ],
+      "amounts_found": [],
+      "status_language_found": true,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "2b7934dd5e59c070",
+      "program_id": "nh_efa",
+      "source_url": "https://nh.scholarshipfund.org/apply/nh-education-freedom-accounts/",
+      "source_title": "NH Education Freedom Accounts - Children’s Scholarship Fund – New Hampshire",
+      "authority": "official_administrator",
+      "excerpt": "Students who will attend their local district public or a charter school full-time in school year 2026-27 are not be eligible to receive an EFA. If you fail to notify the scholarship organization, then you are liable for any state funds to which your students are not entitled.",
+      "dates_found": [
+        "2026-27"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "5472dbd6fd76ca97",
+      "program_id": "nh_efa",
+      "source_url": "https://nh.scholarshipfund.org/apply/nh-education-freedom-accounts/",
+      "source_title": "NH Education Freedom Accounts - Children’s Scholarship Fund – New Hampshire",
+      "authority": "official_administrator",
+      "excerpt": "Applications for Education Freedom Accounts (EFAs) for the 2026-27 school year are now OPEN.",
+      "dates_found": [
+        "2026-27"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "dc2cc1236dba200f",
+      "program_id": "nh_efa",
+      "source_url": "https://nh.scholarshipfund.org/apply/nh-education-freedom-accounts/",
+      "source_title": "NH Education Freedom Accounts - Children’s Scholarship Fund – New Hampshire",
+      "authority": "official_administrator",
+      "excerpt": "Your child must be eligible to enroll in grades K–12 and be at least 5 years old by September 30 of the school year.",
+      "dates_found": [
+        "September 30"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "f37746f9618fd5d7",
+      "program_id": "nh_efa",
+      "source_url": "https://nh.scholarshipfund.org/apply/nh-education-freedom-accounts/",
+      "source_title": "NH Education Freedom Accounts - Children’s Scholarship Fund – New Hampshire",
+      "authority": "official_administrator",
+      "excerpt": "Applications are rolling. Applications completed and verified by July 15 are eligible for a full EFA for the upcoming school year, or families may apply through February for a prorated EFA for the current school year. Families are encouraged to submit all required documents by July 1 to allow time for processing and ve",
+      "dates_found": [
+        "July 15",
+        "July 1"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "0e6794244eeeac40",
+      "program_id": "utah_ufa",
+      "source_url": "https://schools.utah.gov/utahfitsallscholarship",
+      "source_title": "Utah Fits All Scholarship",
+      "authority": "state_agency",
+      "excerpt": "On May 16th, 2025, Odyssey became the new administrator for Utah Fits All Scholarship. Going forward, they will handle all administration for the program.",
+      "dates_found": [
+        "May 16th, 2025"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "8bf59dfee99037c0",
+      "program_id": "utah_ufa",
+      "source_url": "https://schools.utah.gov/utahfitsallscholarship",
+      "source_title": "Utah Fits All Scholarship",
+      "authority": "state_agency",
+      "excerpt": "A program administrator is selected through a Request for Proposals (RFP), a standard procurement practice, to run and manage the program. Currently, the Odyssey group is the current administrator for the scholarship as of May 16th of 2025.",
+      "dates_found": [
+        "May 16th"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "8c10613e9efb12c4",
+      "program_id": "utah_ufa",
+      "source_url": "https://schools.utah.gov/utahfitsallscholarship",
+      "source_title": "Utah Fits All Scholarship",
+      "authority": "state_agency",
+      "excerpt": "The Utah Fits All Scholarship Program came to be through HB215 during the 2023 General Legislative Session. The bill was sponsored by Representative Candice Pierucci and Senator Kirk Cullimore, and was signed into law by Governor Spencer Cox on January 28th, 2023 after passing the House and Senate by votes of 54-20 and",
+      "dates_found": [
+        "January 28th, 2023"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "c98ab1bdb74262a1",
+      "program_id": "utah_ufa",
+      "source_url": "https://schools.utah.gov/utahfitsallscholarship",
+      "source_title": "Utah Fits All Scholarship",
+      "authority": "state_agency",
+      "excerpt": "Beginning in the 2024-25 school year, the Utah Fits All Scholarship Program provides up to $8,000 to Utah K-12 students through an education savings account (ESA). The amounts will change for various groups in the 2025-26 school year. Please check with the administrator for this program.",
+      "dates_found": [
+        "2024-25",
+        "2025-26"
+      ],
+      "amounts_found": [
+        "$8,000"
+      ],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "463b3729c38e592e",
+      "program_id": "utah_ufa",
+      "source_url": "https://support.withodyssey.com/hc/en-us/articles/49123284121755-Utah-Fits-All-Program-Year-Timeline",
+      "source_title": "Utah Fits All Program Year Timeline – Odyssey",
+      "authority": "official_administrator",
+      "excerpt": "This article outlines key dates for the 2026–2027 Utah Fits All (UFA) scholarship program year.",
+      "dates_found": [
+        "2026–2027"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "7db7b8b570179e0f",
+      "program_id": "utah_ufa",
+      "source_url": "https://support.withodyssey.com/hc/en-us/articles/49123284121755-Utah-Fits-All-Program-Year-Timeline",
+      "source_title": "Utah Fits All Program Year Timeline – Odyssey",
+      "authority": "official_administrator",
+      "excerpt": "Applications open for returning students",
+      "dates_found": [],
+      "amounts_found": [],
+      "status_language_found": true,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "ac9103aeedee96bb",
+      "program_id": "utah_ufa",
+      "source_url": "https://support.withodyssey.com/hc/en-us/articles/49123284121755-Utah-Fits-All-Program-Year-Timeline",
+      "source_title": "Utah Fits All Program Year Timeline – Odyssey",
+      "authority": "official_administrator",
+      "excerpt": "2026-27 UFA Funding is Now Available",
+      "dates_found": [
+        "2026-27"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "c4194486def068a3",
+      "program_id": "utah_ufa",
+      "source_url": "https://support.withodyssey.com/hc/en-us/articles/49123284121755-Utah-Fits-All-Program-Year-Timeline",
+      "source_title": "Utah Fits All Program Year Timeline – Odyssey",
+      "authority": "official_administrator",
+      "excerpt": "Applications open for new students",
+      "dates_found": [],
+      "amounts_found": [],
+      "status_language_found": true,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "dd70cb4b4764f956",
+      "program_id": "utah_ufa",
+      "source_url": "https://support.withodyssey.com/hc/en-us/articles/49123284121755-Utah-Fits-All-Program-Year-Timeline",
+      "source_title": "Utah Fits All Program Year Timeline – Odyssey",
+      "authority": "official_administrator",
+      "excerpt": "2026-2027 Award Issue Notification - 06/17/2026",
+      "dates_found": [
+        "2026-2027",
+        "06/17/2026"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "316434919021810c",
+      "program_id": "wyoming_esa",
+      "source_url": "https://edu.wyoming.gov/parents/education-savings-accounts/",
+      "source_title": "Education Savings Account - Wyoming Department Of Education",
+      "authority": "state_agency",
+      "excerpt": "Eligible students can receive $7,000 annually, deposited into an ESA account for their educational expenses.",
+      "dates_found": [],
+      "amounts_found": [
+        "$7,000"
+      ],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "4bc4bd342455d4b6",
+      "program_id": "wyoming_esa",
+      "source_url": "https://edu.wyoming.gov/parents/education-savings-accounts/",
+      "source_title": "Education Savings Account - Wyoming Department Of Education",
+      "authority": "state_agency",
+      "excerpt": "2025-26 Funding Because the lifting of the injunction is not retroactive, full costs from the year cannot be reimbursed. However, the fourth quarter payment of $1,750 is eligible to be rolled over into the 2026-27 school year for students previously approved in the ESA program who were not enrolled in public school for",
+      "dates_found": [
+        "2025-26",
+        "2026-27"
+      ],
+      "amounts_found": [
+        "$1,750"
+      ],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "9bc83bf7e1ace9ec",
+      "program_id": "wyoming_esa",
+      "source_url": "https://edu.wyoming.gov/parents/education-savings-accounts/",
+      "source_title": "Education Savings Account - Wyoming Department Of Education",
+      "authority": "state_agency",
+      "excerpt": "2026-27 Funding For families with students who were enrolled in the program for the 2025-26 school year, the application will prepopulate the previously provided information for your confirmation. Families applying for the first time can access the ESA Family Handbook for helpful information. Families enrolled for the",
+      "dates_found": [
+        "2026-27",
+        "2025-26"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "a87d3d82603da890",
+      "program_id": "wyoming_esa",
+      "source_url": "https://edu.wyoming.gov/parents/education-savings-accounts/",
+      "source_title": "Education Savings Account - Wyoming Department Of Education",
+      "authority": "state_agency",
+      "excerpt": "The ESA program was established by the Wyoming Education Savings Account Act in 2024, which was amended by the Steamboat Legacy Scholarship Act this year . The program allows eligible students to receive $7,000 annually for various educational expenses, including private school tuition, curriculum, tutoring, extracurri",
+      "dates_found": [],
+      "amounts_found": [
+        "$7,000"
+      ],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "b3ac7c400fd64231",
+      "program_id": "wyoming_esa",
+      "source_url": "https://edu.wyoming.gov/parents/education-savings-accounts/",
+      "source_title": "Education Savings Account - Wyoming Department Of Education",
+      "authority": "state_agency",
+      "excerpt": "On June 13, 2025, the Wyoming Education Association (WEA) filed a lawsuit challenging the constitutionality of the ESA program. Following the Wyoming Supreme Court’s denial of the request to stay a Laramie County District Court injunction on October 7, 2025, the program was temporarily blocked. The Wyoming Supreme Cour",
+      "dates_found": [
+        "June 13, 2025",
+        "October 7, 2025"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "c245b39d23b8fef8",
+      "program_id": "wyoming_esa",
+      "source_url": "https://edu.wyoming.gov/parents/education-savings-accounts/",
+      "source_title": "Education Savings Account - Wyoming Department Of Education",
+      "authority": "state_agency",
+      "excerpt": "The Wyoming Department of Education launched the Education Service Provider (ESP) application for service providers and vendors on April 1, 2025. An ESP Handbook and an FAQ document will help providers and schools navigate the program. Providers needing technical assistance with the application can email help.wy@withod",
+      "dates_found": [
+        "April 1, 2025"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    },
+    {
+      "candidate_id": "d47b49c4a8d63cef",
+      "program_id": "wyoming_esa",
+      "source_url": "https://edu.wyoming.gov/parents/education-savings-accounts/",
+      "source_title": "Education Savings Account - Wyoming Department Of Education",
+      "authority": "state_agency",
+      "excerpt": "The 2026-27 application period closed on August 6, 2026 . To receive updates about future application opportunities, please sign up for email notifications using the button below.",
+      "dates_found": [
+        "2026-27",
+        "August 6, 2026"
+      ],
+      "amounts_found": [],
+      "status_language_found": false,
+      "review_status": "needs_review"
+    }
+  ],
+  "errors": [
+    {
+      "program_id": "wv_hope",
+      "url": "https://hopescholarshipwv.gov/Home/About/FAQ",
+      "error": "robots_denied_or_unavailable"
+    },
+    {
+      "program_id": "sc_estf",
+      "url": "https://ed.sc.gov/newsroom/strategic-engagement/education-scholarship-trust-fund-program/",
+      "error": "robots_denied_or_unavailable"
+    },
+    {
+      "program_id": "nc_esaplus",
+      "url": "https://k12.ncseaa.edu/the-education-student-accounts/",
+      "error": "403 Client Error: Forbidden for url: https://k12.ncseaa.edu/the-education-student-accounts/"
+    },
+    {
+      "program_id": "nh_efa",
+      "url": "https://gc.nh.gov/rules/state_agencies/ed800.html",
+      "error": "robots_denied_or_unavailable"
+    },
+    {
+      "program_id": "montana_esa",
+      "url": "https://opi.mt.gov/Families-Students/Parent-Resources/Education-Savings-Account",
+      "error": "robots_denied_or_unavailable"
+    }
+  ]
 }
-
